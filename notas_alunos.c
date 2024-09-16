@@ -12,16 +12,16 @@ int main(){
      scanf("%f",&nota3);
 
      printf("Digite a quarta nota:");
-     scanf("%f",&nota4);
+     scanf("%f",& nota4);
 
      media = (nota1 + nota2 + nota3 + nota4) / 4;
 
      printf("a media do estudante e: %f\n", media);
 
-     if (media >= 6.0){
-        printf("Estudante aprovado!\n");
+     if (media >= 6){
+        printf("Estudante aprovado!%.2f\n");
      } else{
-        printf("Estudante reprovado!\n");
+        printf("Estudante reprovado!%.2f\n");
      }
     return 0;
 }
